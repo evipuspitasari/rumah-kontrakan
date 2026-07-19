@@ -379,12 +379,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!grid) return;
 
     grid.innerHTML = CONFIG.details.fasilitas.map(fac => {
-      const isHighlight = fac.name.toLowerCase().includes("warung") || fac.name.toLowerCase().includes("toko");
+      const isHighlight = fac.name.toLowerCase().includes("mahasiswa") || fac.name.toLowerCase().includes("karyawan");
       return `
         <div class="facility-card ${isHighlight ? 'highlight-facility' : ''}">
           <div class="facility-icon">${SVG_ICONS[fac.icon] || ""}</div>
           <div class="facility-info">
-            <span class="facility-name">${fac.name} ${isHighlight ? '<span style="font-size: 0.68rem; color: #7C3AED; border: 1.5px solid rgba(124, 58, 237, 0.3); background: rgba(124, 58, 237, 0.08); padding: 2px 8px; border-radius: 100px; margin-left: 6px; vertical-align: middle; text-transform: uppercase; font-weight: 700; font-family: var(--font-mono);">Cocok Usaha</span>' : ''}</span>
+            <span class="facility-name">${fac.name} ${isHighlight ? '<span style="font-size: 0.68rem; color: #7C3AED; border: 1.5px solid rgba(124, 58, 237, 0.3); background: rgba(124, 58, 237, 0.08); padding: 2px 8px; border-radius: 100px; margin-left: 6px; vertical-align: middle; text-transform: uppercase; font-weight: 700; font-family: var(--font-mono);">Rekomendasi</span>' : ''}</span>
             <span class="facility-desc">${fac.desc}</span>
           </div>
         </div>

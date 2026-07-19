@@ -40,7 +40,7 @@ const CONFIG = {
       { label: "Rekomendasi", value: "Karyawan Sendiri / Mahasiswa", icon: "user" }
     ],
     fasilitas: [
-      { name: "Air Sumur", desc: "Tersedia air sumur untuk kebutuhan sehari-hari (sudah termasuk dalam sewa).", icon: "droplet" },
+      { name: "Gratis Air & Iuran Sampah", desc: "Air sumur bersih melimpah dan iuran kebersihan/sampah bulanan sudah termasuk di dalam biaya sewa.", icon: "droplet" },
       { name: "Listrik Token 900 Watt", desc: "Menggunakan sistem token 900 watt (biaya listrik ditanggung penyewa).", icon: "zap" },
       { name: "Ruang Bersyekat", desc: "Terdapat 1 sekat pemisah ruangan untuk pengaturan area yang lebih baik.", icon: "layout" },
       { name: "Kamar Mandi Dalam", desc: "Dilengkapi 1 kamar mandi di dalam ruangan.", icon: "home" },
@@ -48,7 +48,7 @@ const CONFIG = {
     ],
     lokasi: {
       alamat: "Gang Apun Rt. 01/09, Jalan Raden Sanim, Kelurahan Tanah Baru, Kecamatan Beji, Kota Depok, Jawa Barat 16426",
-      jarakStasiun: "± 15 Menit ke Universitas Indonesia (UI) | ± 10 Menit ke RS Graha Permata Ibu | ± 15-20 Menit ke Stasiun Depok Baru",
+      jarakStasiun: "± 15 Menit ke Universitas Indonesia (UI) | ± 10 Menit ke RS Graha Permata Ibu | ± 15-20 Menit (4,5 km) ke Stasiun Pondok Cina",
       mapsLink: "https://maps.app.goo.gl/search" // Update map link if needed
     }
   }
