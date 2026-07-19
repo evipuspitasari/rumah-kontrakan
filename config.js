@@ -20,8 +20,8 @@ const CONFIG = {
 
   // Owner contact details
   owner: {
-    name: "Febri Nahdatun",
-    photoUrl: "https://drive.google.com/thumbnail?id=1SWtNTC7S035nmC2l7R39w-vGOfdhgtaC&sz=w200",
+    name: "Evi Puspita Sari",
+    photoUrl: "https://img.magnific.com/vektor-gratis/ilustrasi-ikon-vektor-kartun-gadis-lucu-berjilbab-duduk-di-kotak-ikon-objek-orang-terisolasi-datar_138676-14639.jpg?semt=ais_hybrid&w=740&q=80",
     whatsapp: "https://api.whatsapp.com/send/?phone=6283815234334&text&type=phone_number&app_absent=0",
     telegram: "https://t.me/Eps26"
   },
